@@ -199,3 +199,18 @@ This project is licensed under the MIT License with additional terms for defensi
 - Identifying and fixing vulnerabilities
 
 Any use for malicious purposes or vulnerability exploitation is strictly prohibited.
+
+---
+
+## 🤖 Generated with Claude Code
+
+This project was developed using [Claude Code](https://claude.ai/code), Anthropic's AI assistant for software development. Claude Code provided comprehensive research, implementation, testing frameworks, and documentation to create this complete LLM-based code review system for AOSP development.
+
+**Development Process:**
+- Research and analysis of open-source LLMs for code review
+- Hardware optimization recommendations for RTX 3090 setup
+- AOSP-specific prompt engineering and testing
+- Performance validation with quantitative metrics
+- Complete integration workflow design
+
+**Human-AI Collaboration:** This project demonstrates effective collaboration between human expertise in Android development and AI assistance in system design, implementation, and optimization.
