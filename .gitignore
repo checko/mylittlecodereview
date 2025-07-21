@@ -1,0 +1,109 @@
+# LLM Code Review Project .gitignore
+
+# Generated review files - these are outputs, not source code
+*_REVIEWED.*
+*_reviewed.*
+*_REVIEW.*
+*_review.*
+*.reviewed
+*.review
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+temp/
+logs/
+
+# Test outputs and reports
+test_results/
+review_reports/
+performance_logs/
+
+# System files
+.directory
+desktop.ini
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Large model files or data (if you ever download models locally)
+*.bin
+*.safetensors
+*.gguf
+*.ggml
+models/
+
+# Sensitive configuration (if you add API keys or sensitive URLs)
+secrets.py
+.env
+.secrets
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/

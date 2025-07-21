@@ -274,7 +274,7 @@ def main():
         return
     
     # Test with first available model (you can modify this)
-    test_model = models[0]
+    test_model = models[22]
     print(f"\n🎯 Testing with model: {test_model}")
     
     # Run comprehensive review
