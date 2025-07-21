@@ -1,0 +1,5 @@
+#!/bin/bash
+# Simple wrapper script for inline code reviewer
+# Usage: ./review [input_file] [output_file]
+
+python3 inline_code_reviewer.py "$@"
