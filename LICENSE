@@ -1,0 +1,53 @@
+MIT License
+
+Copyright (c) 2025 LLM Code Review System Contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+ADDITIONAL TERMS AND CONDITIONS FOR USE:
+
+1. DEFENSIVE USE ONLY: This software is intended solely for defensive security 
+   purposes, code quality improvement, and educational use. Any use for malicious 
+   purposes, vulnerability exploitation, or offensive security activities is 
+   strictly prohibited.
+
+2. CODE REVIEW PURPOSE: This software is designed to assist in identifying 
+   potential security vulnerabilities, coding errors, and quality issues in 
+   source code for the purpose of fixing and improving such code.
+
+3. NO WARRANTY FOR SECURITY: While this software aims to identify security 
+   issues, it does not guarantee complete detection of all vulnerabilities. 
+   Users are responsible for conducting thorough security reviews and testing.
+
+4. ANDROID/AOSP FOCUS: This software is optimized for Android Open Source 
+   Project development but may be used for other C/C++/Java/Kotlin projects.
+
+5. LARGE LANGUAGE MODEL DEPENDENCY: This software requires external Large 
+   Language Model services (such as Ollama) which are subject to their own 
+   terms of service and licensing.
+
+6. NO SENSITIVE DATA: Users should not process proprietary, confidential, or 
+   sensitive source code without ensuring appropriate data protection measures 
+   are in place for the LLM service being used.
+
+THE AUTHORS AND CONTRIBUTORS DISCLAIM ALL LIABILITY FOR ANY SECURITY 
+VULNERABILITIES THAT MAY BE MISSED BY THIS SOFTWARE OR ANY DAMAGES RESULTING 
+FROM THE USE OR MISUSE OF THIS SOFTWARE.

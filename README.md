@@ -190,4 +190,12 @@ python3 run_optimized_test.py
 
 ## 📄 License
 
-This project is designed for defensive security and code quality improvement purposes only.
+This project is licensed under the MIT License with additional terms for defensive use only. See the [LICENSE](LICENSE) file for details.
+
+**Important**: This software is intended solely for:
+- Defensive security analysis
+- Code quality improvement  
+- Educational purposes
+- Identifying and fixing vulnerabilities
+
+Any use for malicious purposes or vulnerability exploitation is strictly prohibited.
