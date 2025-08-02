@@ -8,9 +8,10 @@ Modify these settings to match your setup
 OLLAMA_SERVER = "http://192.168.145.77:11434"
 
 # Model to use for reviews (you can change this)
-MODEL_NAME = "deepseek-r1:32b"  # Your best performing model
+MODEL_NAME = "qwen3-coder:latest"  # Your best performing model
 
 # Alternative models you can switch to:
+# MODEL_NAME = "deepseek-r1:32b"      # Recommended in README
 # MODEL_NAME = "deepseek-r1:14b"      # Faster, good quality
 # MODEL_NAME = "starcoder2:15b"       # Code-specialized
 # MODEL_NAME = "deepseek-coder:6.7b"  # Lighter weight

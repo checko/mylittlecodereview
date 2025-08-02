@@ -297,11 +297,7 @@ def main():
     """Main function with command line argument support"""
     import sys
     import os
-    
-    # Configuration
-    OLLAMA_SERVER = "http://192.168.145.77:11434"
-    MODEL_NAME = "deepseek-r1:32b"
-    DEFAULT_INPUT_FILE = "bad_cpp_sample.cpp"
+    from review_config import OLLAMA_SERVER, MODEL_NAME, DEFAULT_INPUT_FILE
     
     # Parse command line arguments
     if len(sys.argv) > 1:
